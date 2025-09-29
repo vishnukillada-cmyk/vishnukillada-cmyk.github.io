@@ -1,97 +1,182 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bob's Cooking Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
 
-<title> bob's cooking site </title>
+    header {
+      background: #ff7043;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .recipe {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .recipe h2 {
+      margin-top: 0;
+      color: #ff7043;
+    }
+
+    .recipe img {
+      width: 100%;
+      border-radius: 8px;
+      margin: 15px 0;
+    }
+
+    h3 {
+      margin-bottom: 5px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    ul, p {
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
 <body>
-<h1> bobs cooking site </h1>
-<p> welcome to my cooing show site. you can find all of my recipes used on my cooking show all on here </p>
 
-<h2> chicken alfredo pasta </h2>
+  <header>
+    <h1>🍳 Bob's Cooking Site</h1>
+    <p>Welcome to my cooking show site! All my favorite recipes are here 🍝🥗🍪</p>
+  </header>
 
-<p> this was the recipe used on seson 3 episode 16 of bob's cooking show </p>
+  <div class="container">
 
-<h2> ingreidints </h2>
-▢1/4 teaspoon salt<br>
-▢1/4 teaspoon pepper<br>
-▢2 cups freshly grated Parmesan cheese
-</p>
+    <div class="recipe">
+      <h2>Chicken Alfredo Pasta</h2>
+      <p><em>Featured on Season 3 Episode 16 of Bob's Cooking Show</em></p>
+      <img src="https://via.placeholder.com/800x400?text=Chicken+Alfredo+Pasta" alt="Chicken Alfredo Pasta">
 
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1/4 teaspoon salt</li>
+        <li>1/4 teaspoon pepper</li>
+        <li>2 cups freshly grated Parmesan cheese</li>
+      </ul>
 
-<h2>instructions</h2>
-<p>
-Make the noodles: Bring a large pot of salted water to a boil. Add the fettuccine and cook until al dente, about 10 minutes. Reserve 1/2 cup of the cooking water, then drain well. Set aside.<br><br>
-Make the chicken: Season chicken breasts with Italian seasoning, salt, and pepper. Heat olive oil over medium-high heat in a skillet. Add the chicken and cook 5–7 minutes per side until golden and cooked through (165°F). Add 1 tablespoon butter while cooking. Rest chicken 3 minutes, then slice.<br><br>
-Make the Alfredo sauce: In the same pan, add butter and cream over medium-low heat; whisk until butter melts. Add garlic, garlic powder, Italian seasoning, salt, and pepper. Simmer 3–4 minutes until thickened. Stir in Parmesan until smooth. Thin with pasta water if needed.<br><br>
-Assemble: Toss sauce with noodles. Serve topped with chicken slices, parsley, Parmesan, and black pepper.
-</p>
+      <h3>Instructions</h3>
+      <p>
+        Make the noodles: Bring a large pot of salted water to a boil. Add the fettuccine and cook until al dente, about 10 minutes. Reserve 1/2 cup of the cooking water, then drain well. Set aside.<br><br>
+        Make the chicken: Season chicken breasts with Italian seasoning, salt, and pepper. Heat olive oil over medium-high heat in a skillet. Add the chicken and cook 5–7 minutes per side until golden and cooked through (165°F). Add 1 tablespoon butter while cooking. Rest chicken 3 minutes, then slice.<br><br>
+        Make the Alfredo sauce: In the same pan, add butter and cream over medium-low heat; whisk until butter melts. Add garlic, garlic powder, Italian seasoning, salt, and pepper. Simmer 3–4 minutes until thickened. Stir in Parmesan until smooth. Thin with pasta water if needed.<br><br>
+        Assemble: Toss sauce with noodles. Serve topped with chicken slices, parsley, Parmesan, and black pepper.
+      </p>
+    </div>
 
+    <div class="recipe">
+      <h2>Veggie Stir Fry</h2>
+      <p><em>Featured on Season 2 Episode 5 of Bob's Cooking Show</em></p>
+      <img src="https://via.placeholder.com/800x400?text=Veggie+Stir+Fry" alt="Veggie Stir Fry">
 
-<h2>veggie stir fry</h2>
-<p>this was the recipe used on season 2 episode 5 of bob's cooking show.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 tablespoons vegetable oil</li>
+        <li>1 red bell pepper, sliced</li>
+        <li>1 cup broccoli florets</li>
+        <li>1 carrot, sliced</li>
+        <li>2 cloves garlic, minced</li>
+        <li>2 tablespoons soy sauce</li>
+        <li>1 tablespoon oyster sauce (optional)</li>
+        <li>1 teaspoon sesame oil</li>
+      </ul>
 
+      <h3>Instructions</h3>
+      <p>
+        Heat vegetable oil in a large pan over medium-high heat. Add garlic and stir 30 seconds. Add vegetables and cook 5–7 minutes until tender-crisp. Add soy sauce and oyster sauce, stir to coat. Drizzle with sesame oil before serving. Serve with rice or noodles.
+      </p>
+    </div>
 
-<h2>ingredients</h2>
-<p>
-▢2 tablespoons vegetable oil<br>
-▢1 red bell pepper, sliced<br>
-▢1 cup broccoli florets<br>
-▢1 carrot, sliced<br>
-▢2 cloves garlic, minced<br>
-▢2 tablespoons soy sauce<br>
-▢1 tablespoon oyster sauce (optional)<br>
-▢1 teaspoon sesame oil
-</p>
+    <div class="recipe">
+      <h2>Tomato Basil Pasta</h2>
+      <p><em>Featured on Season 1 Episode 12 of Bob's Cooking Show</em></p>
+      <img src="https://via.placeholder.com/800x400?text=Tomato+Basil+Pasta" alt="Tomato Basil Pasta">
 
+      <h3>Ingredients</h3>
+      <ul>
+        <li>12 ounces spaghetti</li>
+        <li>2 tablespoons olive oil</li>
+        <li>3 cloves garlic, minced</li>
+        <li>1 can (28 ounces) crushed tomatoes</li>
+        <li>1 teaspoon salt</li>
+        <li>1/4 teaspoon pepper</li>
+        <li>1/2 teaspoon red pepper flakes (optional)</li>
+        <li>1/4 cup fresh basil, chopped</li>
+        <li>1/4 cup grated Parmesan cheese</li>
+      </ul>
 
-<h2>instructions</h2>
-<p>
-Heat vegetable oil in a large pan over medium-high heat. Add garlic and stir 30 seconds. Add vegetables and cook 5–7 minutes until tender-crisp. Add soy sauce and oyster sauce, stir to coat. Drizzle with sesame oil before serving. Serve with rice or noodles.
-</p>
+      <h3>Instructions</h3>
+      <p>
+        Cook spaghetti according to package directions. In a skillet, heat olive oil and cook garlic until fragrant. Add crushed tomatoes, salt, pepper, and red pepper flakes. Simmer 10–15 minutes. Stir in basil. Toss sauce with pasta and top with Parmesan.
+      </p>
+    </div>
 
+    <div class="recipe">
+      <h2>Overnight Oats</h2>
+      <p><em>Featured on Season 4 Episode 3 of Bob's Cooking Show</em></p>
+      <img src="https://via.placeholder.com/800x400?text=Overnight+Oats" alt="Overnight Oats">
 
-<h2>tomato basil pasta</h2>
-<p>this was the recipe used on season 1 episode 12 of bob's cooking show.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1/2 cup rolled oats</li>
+        <li>1/2 cup milk (any kind)</li>
+        <li>1 tablespoon honey or maple syrup</li>
+        <li>1/4 cup fruit (berries, banana, etc.)</li>
+        <li>1 tablespoon chia seeds (optional)</li>
+      </ul>
 
+      <h3>Instructions</h3>
+      <p>
+        In a jar or bowl, combine oats, milk, honey, and chia seeds. Stir well. Cover and refrigerate overnight. In the morning, top with fruit and enjoy cold or warm.
+      </p>
+    </div>
 
-<h2>ingredients</h2>
-<p>
-▢12 ounces spaghetti<br>
-▢2 tablespoons olive oil<br>
-▢3 cloves garlic, minced<br>
-▢1 can (28 ounces) crushed tomatoes<br>
-▢1 teaspoon salt<br>
-▢1/4 teaspoon pepper<br>
-▢1/2 teaspoon red pepper flakes (optional)<br>
-▢1/4 cup fresh basil, chopped<br>
-▢1/4 cup grated Parmesan cheese
-</p>
+  </div>
 
+  <footer>
+    <p>© 2025 Bob's Cooking Show | All rights reserved</p>
+  </footer>
 
-<h2>instructions</h2>
-<p>
-Cook spaghetti according to package directions. In a skillet, heat olive oil and cook garlic until fragrant. Add crushed tomatoes, salt, pepper, and red pepper flakes. Simmer 10–15 minutes. Stir in basil. Toss sauce with pasta and top with Parmesan.
-</p>
-
-
-<h2>overnight oats</h2>
-<p>this was the recipe used on season 4 episode 3 of bob's cooking show.</p>
-
-
-<h2>ingredients</h2>
-<p>
-▢1/2 cup rolled oats<br>
-▢1/2 cup milk (any kind)<br>
-▢1 tablespoon honey or maple syrup<br>
-▢1/4 cup fruit (berries, banana, etc.)<br>
-▢1 tablespoon chia seeds (optional)
-</p>
-
-
-<h2>instructions</h2>
-<p>
-In a jar or bowl, combine oats, milk, honey, and chia seeds. Stir well. Cover and refrigerate overnight. In the morning, top with fruit and enjoy cold or warm.
-</p>
 </body>
 </html>
