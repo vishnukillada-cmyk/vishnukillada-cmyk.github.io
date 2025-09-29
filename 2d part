@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .recipe {
+      background: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Recipes Area</h2>
+
+  <div class="recipe">
+    <h3>🍝 Spaghetti Bolognese</h3>
+    <p>A classic Italian pasta dish with a rich tomato and meat sauce.</p>
+  </div>
+
+  <div class="recipe">
+    <h3>🥗 Caesar Salad</h3>
+    <p>Fresh, crunchy lettuce with creamy Caesar dressing and croutons.</p>
+  </div>
+
+  <div class="recipe">
+    <h3>🍪 Chocolate Chip Cookies</h3>
+    <p>Soft, chewy cookies loaded with chocolate chips.</p>
+  </div>
+
+  <a href="index.html">⬅ Back to Home</a>
+</body>
+</html>
